@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
+@import url('http://fonts.cdnfonts.com/css/enhanced-led-board-7'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #7D9F02;
+}
+.body-bg {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    height: 100%;
+    z-index: -2;
+    background-size:contain;
+}
+h1 {
+    font-family: 'Mystery Quest', cursive;
+    font-size: 5rem;
+    text-align: center;
+}
+main {
+    margin-top: 10px;
+    font-family: 'Enhanced LED Board-7', sans-serif;
+    width: 100%;
+    font-weight: bold;
+    
+}
+.play-container, 
+.game-lost,
+.game-win {
+    position: absolute;
+    width: 60%;
+    height: 78%; 
+    border: 1px solid green;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-container {
+    background-color: rgba(91, 231, 16);
+}
+.start-game,
+.game-lost h3,
+.game-win h3 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.level {
+    font-family: 'Enhanced LED Board-7', sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.level:hover {
+    border: 1px solid black;
+    box-shadow: 5px 5px gray;
+}
+.difficulty h3 {
+    font-size: 1.5rem; 
+    padding-bottom: 20px;
+}
+.easy:hover {
+    background-color: #D3EF3C;
+}
+.moderate:hover{
+    background-color: #DE8F19;
+}
+.hard:hover {
+    background-color: #DB2728;
+}
+.game-lost,
+.game-win {
+    flex-direction: column;
+}
+.game-lost {
+    background-color: #FC100D;
+}
+.game-win {
+    background-color: #ECE236;
+}
+.game-win
+.game-lost h3,
+.game-win h3 {
+    display: block;
+    margin-top: 0;
+}
+input {
+    font-family: 'Alkalami', serif;
+    cursor: pointer;
+}
+main, h1 {
+    width: 60%;
+    margin-left: 20%;
+}
+.snake-bg {
+    position: absolute;
+    left: 55%;
+    top: 38%;
+    z-index: -1;
+}
+.snake-tail {
+    position: absolute;
+    left: -4%;
+    bottom: 3%;
+    z-index: -1;
+}
+canvas {
+    width: 100%;
+    border: 6px outset grey;
+    background-color: grey;
+}
+.restart-container {
+    display: flex;
+    justify-content: center;
+}
+.restart {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border-style: none;
+    font-family: 'Enhanced LED Board-7', sans-serif;
+    font-weight: bold;
+}
+.restart:hover {
+    border: 1px solid black;
+    box-shadow: 5px 5px gray;
+    background-color: green;
+}
+.center-restart {
+    position: absolute;
+    bottom: 26%;
+}
+.instruction-title {
+    font-size: 1.5rem;
+}
+.instructions-container {
+    padding: 6px;
+    position: absolute;
+    left: 2%;
+    width: 17%;
+    border: 2px solid black;
+    background-color: rgb(227, 227, 227, 0.8);
+}
+.instructions-container li {
+    padding: 5px;
+    list-style-position: inside;
+    color: #010101;
+}
+.instruction-snake,
+.instruction-chicken {
+    width: 40px;
+}
+footer {
+    position: absolute;
+    background-color:#85BEE2;
+    width: 100%;
+    bottom: 0;
+    padding: 7px;
+    text-align: center;
+}
