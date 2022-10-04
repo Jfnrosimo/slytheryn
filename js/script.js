@@ -13,14 +13,14 @@ let foodXCoor;
 let foodYCoor;
 
 let foodImage = new Image();
-foodImage.src = 'https://banner2.cleanpng.com/20180301/gfe/kisspng-rooster-chicken-clip-art-vector-hand-painted-large-cock-5a985a547ca7b8.4792886115199340365106.jpg';
+foodImage.src = 'https://banner2.cleanpng.com/20180408/pkq/kisspng-the-big-red-chicken-big-chicken-youtube-television-hen-5aca709cb49a17.5329197215232165407398.jpg';
 
 //variables of the snake head / start box
 let snakeXCoor = sizeOfBlock;
 let snakeYCoor = sizeOfBlock;
 
 let snakeHead = new Image();
-snakeHead.src = '../assets/images/snake_head.png';
+snakeHead.src = 'https://png2.cleanpng.com/sh/683be15fc19bb771b7d8fc5b21c9b067/L0KzQYm3UsI2N5D0iZH0aYP2gLBuTgNvaZxqRecDY3HkhYa7UMN2QGdoTAcAOUK6hYXtVfN2PmM4SJ9sYYL3f7F1TfNtcaEyfARuZXT8PcT1gftmNaV0htlAZT24cYq6UBRnP2E9e9gBMT62RIS5UsczO2I6SasAOUmzSYa3U8YyNqFzf3==/kisspng-snake-u8caau5403u86c7u5927u4f5cu6230-cartoon-clip-greedy-snake-tongue-5a933df708cf61.3432272315195990950361.png';
 
 //coordinates for moving the snake
 let moveXCoor = 0;
@@ -57,9 +57,9 @@ const restartBtn = document.querySelector('.restart');
 let easy;
 
 // sound effects
-const addScore = new Audio('../assets/sound-effects/score.mp3');
-const win = new Audio('../assets/sound-effects/win.wav');
-const lose = new Audio('../assets/sound-effects/lose.wav')
+const addScore = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq');
+const win = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq');
+const lose = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq')
 
 //create game over pop up elements
 const gameLostDiv = document.createElement('div');
