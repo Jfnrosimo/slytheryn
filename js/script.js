@@ -13,14 +13,14 @@ let foodXCoor;
 let foodYCoor;
 
 let foodImage = new Image();
-foodImage.src = '../assets/images/chicken.png';
+foodImage.src = '/assets/images/chicken.png';
 
 //variables of the snake head / start box
 let snakeXCoor = sizeOfBlock;
 let snakeYCoor = sizeOfBlock;
 
 let snakeHead = new Image();
-snakeHead.src = '../assets/images/snake_head.png';
+snakeHead.src = '/assets/images/snake_head.png';
 
 //coordinates for moving the snake
 let moveXCoor = 0;
@@ -32,7 +32,7 @@ let gameLost = false; //default variable for detecting if game is lost
 
 //map background
 let mapBackground = new Image();
-mapBackground.src = '../assets/images/map_bg_2.jpg';
+mapBackground.src = '/assets/images/map_bg_2.jpg';
 
 //score variables
 const scoreNumber = document.querySelector('.score-number');
@@ -57,9 +57,9 @@ const restartBtn = document.querySelector('.restart');
 let easy;
 
 // sound effects
-const addScore = new Audio('../assets/sound-effects/score.mp3');
-const win = new Audio('../assets/sound-effects/win.wav');
-const lose = new Audio('../assets/sound-effects/lose.wav')
+const addScore = new Audio('/assets/sound-effects/score.mp3');
+const win = new Audio('/assets/sound-effects/win.wav');
+const lose = new Audio('/assets/sound-effects/lose.wav')
 
 //create game over pop up elements
 const gameLostDiv = document.createElement('div');
