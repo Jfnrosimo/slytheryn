@@ -13,7 +13,7 @@ let foodXCoor;
 let foodYCoor;
 
 let foodImage = new Image();
-foodImage.src = '../assets/images/chicken.png';
+foodImage.src = 'https://banner2.cleanpng.com/20180301/gfe/kisspng-rooster-chicken-clip-art-vector-hand-painted-large-cock-5a985a547ca7b8.4792886115199340365106.jpg';
 
 //variables of the snake head / start box
 let snakeXCoor = sizeOfBlock;
@@ -32,7 +32,7 @@ let gameLost = false; //default variable for detecting if game is lost
 
 //map background
 let mapBackground = new Image();
-mapBackground.src = '../assets/images/map_bg_2.jpg';
+mapBackground.src = 'https://images5.alphacoders.com/285/285799.jpg';
 
 //score variables
 const scoreNumber = document.querySelector('.score-number');
