@@ -163,3 +163,8 @@ footer {
     padding: 7px;
     text-align: center;
 }
+.images {
+    background-image: url('../assets/images/chicken.png');
+    background-image: ('../assets/images/snake_head.png');
+    background-image: url('../assets/images/map_bg_2.jpg');
+}
