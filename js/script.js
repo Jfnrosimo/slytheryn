@@ -13,7 +13,7 @@ let foodXCoor;
 let foodYCoor;
 
 let foodImage = new Image();
-foodImage.src = 'https://banner2.cleanpng.com/20180408/pkq/kisspng-the-big-red-chicken-big-chicken-youtube-television-hen-5aca709cb49a17.5329197215232165407398.jpg';
+foodImage.src = '../assets/images/chicken.png';
 
 //variables of the snake head / start box
 let snakeXCoor = sizeOfBlock;
@@ -57,9 +57,9 @@ const restartBtn = document.querySelector('.restart');
 let easy;
 
 // sound effects
-const addScore = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq');
-const win = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq');
-const lose = new Audio('https://drive.google.com/drive/folders/16I0lc8uLQep0c9Du3jMx_c1pHvzB8VRq')
+const addScore = new Audio('../assets/sound-effects/score.mp3');
+const win = new Audio('../assets/sound-effects/win.wav');
+const lose = new Audio('../assets/sound-effects/lose.wav');
 
 //create game over pop up elements
 const gameLostDiv = document.createElement('div');
