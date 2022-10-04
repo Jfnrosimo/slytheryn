@@ -112,7 +112,7 @@ function createMap() {
     }
 
     //draw map background
-    context.drawImage(mapBackground, 0, 0, map.width,map.height);
+    context.drawImage(mapBackground, 0, 0, map.width, map.height);
     
     // draw the random food in the map
     context.drawImage(foodImage,foodXCoor, foodYCoor, sizeOfBlock, sizeOfBlock);
