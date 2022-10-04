@@ -13,7 +13,7 @@ let foodXCoor;
 let foodYCoor;
 
 let foodImage = new Image();
-foodImage.src = '../assets/images/chicken.png';
+foodImage.src = 'https://scontent.fmnl4-3.fna.fbcdn.net/v/t1.6435-9/52606006_395732384587733_8024110446464204800_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=6YDdOp07IQoAX9CVUC5&_nc_ht=scontent.fmnl4-3.fna&oh=00_AT83Ic3MKJYzKxwcxao8pCBjUR6z4iSMzlsfAFgpJ_Mlzw&oe=63639F8A';
 
 //variables of the snake head / start box
 let snakeXCoor = sizeOfBlock;
